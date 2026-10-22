@@ -80,7 +80,6 @@ OPENAI_API_KEY=your_api_key_here
 
 These variable names are examples; check the scripts for the actual names they use.
 
-**Security:** Never commit your `.env` file or expose API keys in source code. Keep `.env` excluded through `.gitignore`.
 
 ## Running the Scripts
 
