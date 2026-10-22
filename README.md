@@ -73,12 +73,12 @@ Some scripts require API credentials. Create a local `.env` file in the project 
 Example:
 
 ```dotenv
-OPENROUTER_API_KEY=your_api_key_here
+OLLAMA_API_KEY=your_api_key_here
 GROQ_API_KEY=your_api_key_here
-OPENAI_API_KEY=your_api_key_here
+OPENROUTER_API_KEY=your_api_key_here
 ```
 
-These variable names are examples; check the scripts for the actual names they use.
+These are examples,replace `your_api_key_here` with your actual respective api key.
 
 
 ## Running the Scripts
