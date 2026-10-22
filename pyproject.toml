@@ -1,0 +1,21 @@
+[project]
+name = "cloud-models"
+version = "0.1.0"
+description = "Using Ollama-Python to run cloud models"
+readme = "README.md"
+requires-python = "~=3.12.0"
+dependencies = [
+    "groq>=1.7.0",
+    "ollama>=0.6.3",
+    "openai>=3.35.1",
+    "prompt-toolkit>=3.0.53",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+]
+
+[project.scripts]
+cloud-models = "cloud_models:main"
+
+[build-system]
+requires = ["uv_build>=0.13.0,<0.14.0"]
+build-backend = "uv_build"
